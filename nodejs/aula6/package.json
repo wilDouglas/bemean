@@ -1,0 +1,17 @@
+{
+  "name": "aula6",
+  "version": "1.0.0",
+  "description": "curso be-mean",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "be-mean"
+  ],
+  "author": "William Silva",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^4.3.7"
+  }
+}
