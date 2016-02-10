@@ -9,7 +9,7 @@ const CRUD = {
       create
     */
     const pessoa = new Model(data);
-    if(pessoa.validateSync().toString() == undefined){
+    if(pessoa.validateSync() == undefined){
       pessoa.save(function(err,data){
         if(err) return console.log(err);
 

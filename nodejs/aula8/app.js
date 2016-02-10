@@ -1,12 +1,12 @@
 'use strict'
 require('./db/config.js');
 const CRUD = require('./pessoa-controller.js');
-const query = {nome: "William Douglas da Silva" };
-
+const query = {nome: "WILLIAM DOUGLAS DA SILVA" };
+/*
 CRUD.create({
-  nome: "Marcos Vinicius Pereira",
+  nome: "William Douglas da Silva",
   idade: 22,
-  naturalidade: "Campinas"
+  naturalidade: "Belo Horizonte, MG"
 });
-
-//CRUD.find(query);
+*/
+CRUD.find(query);
