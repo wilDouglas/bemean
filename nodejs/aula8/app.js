@@ -9,4 +9,8 @@ CRUD.create({
   naturalidade: "Belo Horizonte, MG"
 });
 */
-CRUD.find(query);
+//CRUD.find(query);
+CRUD.find({
+    nome: "WILLIAM DOUGLAS DA SILVA",
+    idade: 22  
+});
